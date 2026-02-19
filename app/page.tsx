@@ -85,7 +85,7 @@ export default function HomePage() {
               Performance-first fitness platform
             </div>
 
-            <div className="ring-stage mx-auto mb-10">
+            <div className="ring-stage mx-80 mb-10">
               <div className="ring-layer ring-layer-1" />
               <div className="ring-layer ring-layer-2" />
               <div className="ring-layer ring-layer-3" />
@@ -119,21 +119,7 @@ export default function HomePage() {
               </Link>
             </div>
 
-            <div className="glass-panel mx-auto mt-14 max-w-3xl rounded-2xl p-6 md:p-8">
-              <div className="grid grid-cols-2 gap-5 md:grid-cols-4">
-                {[
-                  { label: "Workouts", value: "12K+" },
-                  { label: "Active Goals", value: "4.8K" },
-                  { label: "BMI Logs", value: "32K+" },
-                  { label: "Athletes", value: "9.2K" },
-                ].map((stat) => (
-                  <div key={stat.label} className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
-                    <p className="text-xl font-semibold text-white md:text-2xl">{stat.value}</p>
-                    <p className="text-xs tracking-wide text-slate-300 uppercase">{stat.label}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
+            
           </div>
         </section>
 
@@ -184,7 +170,7 @@ export default function HomePage() {
 
       <footer className="relative z-10 border-t border-white/10 py-8">
         <div className="mx-auto max-w-7xl px-6 text-center text-sm text-slate-400">
-          <p>&copy; 2025 Sports Companion. All rights reserved.</p>
+          <p>&copy; 2026 Sports Companion. All rights reserved.</p>
         </div>
       </footer>
     </div>

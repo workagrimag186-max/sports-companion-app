@@ -209,10 +209,10 @@
   }
 
   .ring-stage {
-    position: relative;
+    position: absolute;
     width: min(70vw, 42rem);
     height: min(70vw, 42rem);
-    max-height: 20rem;
+    max-height: 15rem;
     opacity: 0.95;
   }
 

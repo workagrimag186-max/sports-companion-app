@@ -25,7 +25,8 @@ venv/
 ml-model/venv/
 __pycache__/
 *.pyc
-
 # Model artifacts (optional if large)
 # Comment this if you WANT to commit the model
 # *.h5
+# ML artifacts
+ml-model/scaler.save
